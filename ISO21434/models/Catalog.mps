@@ -73,6 +73,7 @@
       <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
+      <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
@@ -329,6 +330,76 @@
       </node>
     </node>
     <node concept="2dnDwV" id="3t9jbUDg32Y" role="1u4Ppf" />
+    <node concept="EbI1Y" id="7f$25HaVPOp" role="1u4Ppf">
+      <property role="TrG5h" value="CC.5" />
+      <property role="DVXpC" value="Ecryption Option A" />
+      <node concept="3VMn$a" id="7f$25HaVPOq" role="2JHqPs" />
+      <node concept="3RtnZZ" id="7f$25HaVPQY" role="1u4RdF">
+        <ref role="122Z_O" to="it2g:4CQftq3lQjc" resolve="I" />
+      </node>
+      <node concept="122ZmF" id="7f$25HaVPS5" role="1u4Rdk">
+        <ref role="122Z_O" node="4CQftq3lQmG" resolve="TC.2" />
+      </node>
+      <node concept="3WX1Ss" id="7f$25HaVPTc" role="1u4RdC" />
+      <node concept="13pXwX" id="7f$25HaVPVr" role="1u4RdC" />
+      <node concept="13pXwW" id="7f$25HaVPXG" role="1u4RdC" />
+      <node concept="3h3ntD" id="7f$25HaVPZZ" role="1u4RdC" />
+      <node concept="3RtpOr" id="7f$25HaVQf7" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhE" resolve="ET" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhG" resolve="ET0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQfL" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhw" resolve="SE" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhx" resolve="SE0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQgj" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhP" resolve="KoIC" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhQ" resolve="KoIC0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQh2" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhK" resolve="Eq" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhL" resolve="Eq0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQj0" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQh_" resolve="WoO" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhA" resolve="WoO0" />
+      </node>
+    </node>
+    <node concept="EbI1Y" id="7f$25HaVQ19" role="1u4Ppf">
+      <property role="TrG5h" value="CC.6" />
+      <property role="DVXpC" value="Ecryption Option B" />
+      <node concept="3VMn$a" id="7f$25HaVQ1a" role="2JHqPs" />
+      <node concept="3RtnZZ" id="7f$25HaVQ4V" role="1u4RdF">
+        <ref role="122Z_O" to="it2g:4CQftq3lQjc" resolve="I" />
+      </node>
+      <node concept="122ZmF" id="7f$25HaVQ62" role="1u4Rdk">
+        <ref role="122Z_O" node="4CQftq3lQmG" resolve="TC.2" />
+      </node>
+      <node concept="3WX1Ss" id="7f$25HaVQ79" role="1u4RdC" />
+      <node concept="13pXwX" id="7f$25HaVQ9o" role="1u4RdC" />
+      <node concept="13pXwW" id="7f$25HaVQbD" role="1u4RdC" />
+      <node concept="3h3ntD" id="7f$25HaVQdW" role="1u4RdC" />
+      <node concept="3RtpOr" id="7f$25HaVQja" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhE" resolve="ET" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhG" resolve="ET0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQjO" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhw" resolve="SE" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhx" resolve="SE0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQkm" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhP" resolve="KoIC" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhQ" resolve="KoIC0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQkK" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQh_" resolve="WoO" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhA" resolve="WoO0" />
+      </node>
+      <node concept="3RtpOr" id="7f$25HaVQl2" role="3RtpOm">
+        <ref role="3RtpOq" to="it2g:4CQftq3lQhK" resolve="Eq" />
+        <ref role="3RtpRB" to="it2g:4CQftq3lQhL" resolve="Eq0" />
+      </node>
+    </node>
   </node>
   <node concept="1EwOn2" id="4NAzM1S$HE4">
     <property role="3GE5qa" value="" />
